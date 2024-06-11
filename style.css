@@ -449,6 +449,12 @@ body {
     justify-content: center;
 }
 
+@media (max-width: 420px) {
+    .form-content {
+        padding: 1rem;
+    }
+}
+
 .form-container {
     z-index: 999;
     width: 400px;
